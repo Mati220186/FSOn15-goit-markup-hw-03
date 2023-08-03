@@ -17,6 +17,9 @@ body {
   color: var(--text);
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 a {
   text-decoration: none;
 }
@@ -126,10 +129,11 @@ a {
 .button-item {
   color: var(--primary-brand);
   background-color: var(--cloud);
-  font-weight: medium;
-  size: 16px;
-  line-height: 24px1.5;
-  letter-spacing: 2%;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   cursor: pointer;
 }
 .button-item:hover,

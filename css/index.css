@@ -12,12 +12,14 @@
   --modal-background: #fcfcfc;
   --main-font: Roboto, sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: var(--main-font);
   color: var(--text);
   text-decoration: none;
   max-width: 1440px;
-  border: 2px dashed red;
 }
 h1,
 h2,
@@ -44,7 +46,6 @@ a {
   color: var(--primary-brand);
   font-family: var(--main-font);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.16; /* 116.667% */
   letter-spacing: 0.03em;
@@ -66,9 +67,8 @@ a {
   color: var(--text);
   font-weight: 500;
   line-height: 1.5;
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-size: 16px;
-  font-weight: 500;
   letter-spacing: 0.02em;
 }
 .nav:hover,
@@ -83,7 +83,7 @@ a {
   /* Header 1 */
   color: var(--white-background);
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -171,6 +171,7 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .adres:hover,
 .adres:focus {
@@ -215,7 +216,6 @@ a {
   height: 72px;
   margin: 0;
   border-bottom: 1px solid var(--primary-brand);
-  background-color: orange;
 }
 /*container 2*/
 .container-logo-top-line {
@@ -223,9 +223,8 @@ a {
   max-width: 115px;
   margin-left: 156px;
   margin-top: 24px;
-  flex-direction: row;
+
   /*align-items: center;*/
-  padding: 0px;
 
   border: 3px solid red;
 }
@@ -246,4 +245,54 @@ a {
   display: flex;
   justify-content: space-between;
   border: 3px solid black;
+}
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container-section1 {
+  width: 1128px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: auto;
+}
+.section1-child {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.container-section2 {
+  display: flex;
+  width: 1128px;
+  margin: auto;
+  padding-top: 72px;
+}
+.container-section2-child {
+  margin-right: 24px;
+}
+.container-section2-child:last-child {
+  margin-right: 0;
+}
+.container-section3 {
+  display: flex;
+  width: 1128px;
+  margin: auto;
+  padding-top: 72px;
+}
+.container-section3-child {
+  margin-right: 24px;
+}
+.container-section3-child:last-child {
+  margin-right: 0;
+}
+.card-team {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 5px, solid red;
+  gap: 8px;
 }

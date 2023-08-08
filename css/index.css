@@ -81,6 +81,7 @@ a {
 }
 .hero {
   /* Header 1 */
+  display: block;
   color: var(--white-background);
   text-align: center;
   font-family: var(--main-font);
@@ -89,8 +90,12 @@ a {
   font-weight: 700;
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
+  width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .button-service {
+  display: block;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -99,6 +104,9 @@ a {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 48px;
 
   /*button-text :Oder Serwice*/
   font-family: Roboto;
@@ -192,7 +200,6 @@ a {
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  justify-content: center;
 }
 .studio-logo-footer {
   color: var(--cloud);
@@ -208,6 +215,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  display: block;
+  width: 264px;
+  margin-left: 156px;
+  padding-bottom: 100px;
 }
 /*container 1*/
 .container-top-line {
@@ -223,10 +234,6 @@ a {
   max-width: 115px;
   margin-left: 156px;
   margin-top: 24px;
-
-  /*align-items: center;*/
-
-  border: 3px solid red;
 }
 /*container 3*/
 .container-links-top-line {
@@ -235,7 +242,6 @@ a {
   margin-left: 40px;
   display: flex;
   justify-content: space-between;
-  border: 3px solid green;
 }
 /*container 4*/
 .container-address-top-line {
@@ -244,7 +250,6 @@ a {
   margin-left: 332px;
   display: flex;
   justify-content: space-between;
-  border: 3px solid black;
 }
 .section-padding {
   padding-top: 120px;
@@ -284,15 +289,34 @@ a {
 }
 .container-section3-child {
   margin-right: 24px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+
+  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  gap: 0;
 }
 .container-section3-child:last-child {
   margin-right: 0;
 }
-.card-team {
+.container-card-team {
   display: flex;
   flex-direction: column;
   padding-top: 32px;
   padding-bottom: 32px;
-  border-bottom: 5px, solid red;
+  text-align: center;
   gap: 8px;
+  background-color: var(--modal-background);
+  border-radius: 0px 0px 4px 4px;
+}
+.image-card {
+  margin: 0;
+  padding: 0;
+}
+.container-footer-weblogo {
+  display: block;
+  margin-left: 156px;
+  padding-top: 101px;
+  padding-bottom: 17px;
 }

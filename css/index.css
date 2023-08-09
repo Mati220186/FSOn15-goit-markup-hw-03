@@ -339,13 +339,12 @@ a {
   display: flex;
   width: 360px;
   height: 420px;
-  padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   flex-shrink: 0;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
+  border-bottom: 1px solid var(--acent);
+  background: var(--white);
 }
 .container-portfolio {
   max-width: 1128px;

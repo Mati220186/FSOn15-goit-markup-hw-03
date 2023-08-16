@@ -202,7 +202,7 @@ a {
 }
 .web-logo-footer {
   width: 44px;
-  height: 21px;
+  /*height: 21px;*/
   color: var(--primary-brand);
   font-family: Raleway;
   font-size: 18px;
@@ -215,10 +215,10 @@ a {
 .studio-logo-footer {
   color: var(--cloud);
 }
-.studio-logo-footer:hover,
+/*.studio-logo-footer:hover,
 .studio-logo-footer:focus {
   color: var(--pressed-state);
-}
+}*/
 .footer-text {
   font-family: Roboto;
   font-size: 16px;
@@ -235,7 +235,7 @@ a {
 .container-top-line {
   display: flex;
   max-width: 1440px;
-  height: 72px;
+  /*height: 72px;*/
   margin: 0;
   border-bottom: 1px solid var(--acent);
 }
@@ -244,31 +244,37 @@ a {
   display: flex;
   max-width: 115px;
   margin-left: 156px;
-  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: 1px solid red;
 }
 /*container 3*/
 .container-links-top-line {
-  width: 261px;
-  margin-top: 24px;
-  margin-left: 40px;
   display: flex;
+  width: 261px;
+  margin-left: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   justify-content: space-between;
+  border: 1px solid red;
 }
 /*container 4*/
 .container-address-top-line {
-  width: 344px;
-  margin-top: 24px;
-  margin-left: 332px;
   display: flex;
+  width: 344px;
+  margin-left: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   justify-content: space-between;
+  border: 1px solid red;
 }
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 .container-section1 {
-  width: 1128px;
   display: flex;
+  width: 1128px;
   justify-content: space-between;
   gap: 24px;
   margin: auto;
@@ -300,13 +306,10 @@ a {
 }
 .container-section3-child {
   width: 264px;
-
   margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-
   box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   gap: 0;
   background-color: var(--modal-background);
@@ -322,7 +325,10 @@ a {
   align-items: center;
   gap: 8px;
   border-radius: 0px 0px 4px 4px;
-  margin: 32px auto 32px auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  /*padding: 32px auto 32px auto;*/
 }
 .image-card {
   margin: 0;
@@ -334,6 +340,9 @@ a {
   padding-top: 101px;
   padding-bottom: 17px;
 }
+/*.container-footer-weblogo:hover {
+  color: #31d0aa;
+}*/
 .container-buttons {
   display: flex;
   width: 586px;
@@ -345,7 +354,7 @@ a {
 .container-portfolio-card {
   display: flex;
   width: 360px;
-  height: 420px;
+  /*height: 420px;*/
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;

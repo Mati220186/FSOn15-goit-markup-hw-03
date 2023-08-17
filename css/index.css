@@ -355,7 +355,7 @@ a {
   /*height: 420px;*/
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+
   flex-shrink: 0;
   border-bottom: 1px solid var(--acent);
   background: var(--white);
@@ -372,12 +372,19 @@ a {
 }
 .container-portfolio-text {
   display: flex;
-  padding: 0px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
   align-self: stretch;
+  border-bottom: 1px solid var(--acent);
+  border-left: 1px solid var(--acent);
+  border-right: 1px solid var(--acent);
+  background: var(--white);
 }
 .section-portfolio {
   padding-bottom: 120px;
